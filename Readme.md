@@ -7,8 +7,10 @@ A React application that integrates with the Reqres API to perform basic user ma
 - Basic login screen using email and password.
 - Displays a paginated list of users fetched from the `/api/users` endpoint.
 - Implements pagination to navigate through user pages.
-- Provides Edit and Delete options for each user.
-- Edit: Opens a form to update user details (first name, last name, email) using the `/api/users/{id}` endpoint.
+- Provides Update and Delete user's data options for each user.
+- Update User: Opens a form to update user details (first name, last name, email) using the `/api/users/{id}` endpoint.
+- Search functionality to filter users by name or email.
+
 
 ## 🛠️ Tech Stack
 
@@ -72,4 +74,4 @@ http://localhost:5173
 
 ## 🔗 Hosted Link
 
-Application is hosted at: 
+Application is hosted at: https://employwise-assignment-mern.onrender.com
