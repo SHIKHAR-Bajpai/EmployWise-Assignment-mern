@@ -23,18 +23,18 @@ const HomePage = () => {
     <div className="min-h-screen flex flex-col">
       <Header />
 
-      <div className="flex-grow flex justify-evenly items-center mx-36">
-        <div className="text-font-mono text-center py-8">
+      <div className="flex-grow flex justify-evenly items-center mx-48">
+        <div className="font-mono text-center py-8">
           <h1 className="lg:text-4xl font-extrabold mb-16">
             Organise team and 
-            <div className="lg:text-8xl duration-300 text-blue-500 animate-pulse text-center">
+            <div className="text-7xl duration-300 text-blue-500 animate-pulse text-center">
               <div className='typewriter'>Work Faster...</div>
             </div>
           </h1>
             
           <button
             onClick={handleButtonClick} 
-            className="px-10 py-6 lg:text-4xl bg-blue-500 text-white rounded-full hover:bg-white hover:text-blue-500 hover:border-2 hover:border-blue-500 transition">
+            className=" px-8 py-6 text-2xl bg-blue-500 font-semibold font-mono text-white rounded-full hover:bg-white hover:text-blue-500 hover:border-2 hover:border-blue-500 transition">
               Get All Users &#10148;
           </button>
 
@@ -42,7 +42,7 @@ const HomePage = () => {
 
         <div>
             <img src={home} alt="home illustration"
-              className="xl:w-xl lg:w-lg sm:w-sm"/>
+              className="xl:w-lg lg:w-lg md:w-lg"/>
         </div>
 
       </div>
