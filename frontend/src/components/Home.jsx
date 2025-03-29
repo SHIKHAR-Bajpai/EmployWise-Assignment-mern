@@ -23,7 +23,7 @@ const HomePage = () => {
     <div className="min-h-screen flex flex-col">
       <Header />
 
-      <div className="flex-grow flex sm:flex-wrap justify-evenly items-center mx-36">
+      <div className="flex-grow flex justify-evenly items-center mx-36">
         <div className="text-font-mono text-center py-8">
           <h1 className="lg:text-4xl font-extrabold mb-16">
             Organise team and 

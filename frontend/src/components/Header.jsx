@@ -25,7 +25,7 @@ const Header = () => {
       <div className="max-w-screen-xl mx-auto flex justify-between items-center">
         <div className="flex items-center space-x-6">
           <Link to="/">
-            <h1 className="text-4xl font-bold font-mono py-6">User Management</h1>
+            <h1 className="text-4xl font-bold font-mono py-4">User Management</h1>
           </Link>
         </div>
 

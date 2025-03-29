@@ -66,8 +66,8 @@ const UpdateUser = () => {
     <div className="min-h-screen bg-gray-100 flex flex-col">
       <Header />
       
-      <div className="flex-grow flex flex-col justify-center items-center font-mono ">
-        <div className="w-full sm:w-2/3 md:w-1/2 lg:w-1/3 p-8 bg-white border border-gray-300 rounded-lg shadow-lg">
+      <div className="flex-grow flex justify-center items-center font-mono p-6">
+        <div className="container mx-auto w-full sm:w-2/3 md:w-1/2 lg:w-1/3 max-w-xl p-8 bg-white border border-gray-300 rounded-lg shadow-lg">
           <h2 className="text-3xl font-semibold text-gray-800 mb-6 text-center">Update User</h2>
 
           <div className="mb-6 text-center">

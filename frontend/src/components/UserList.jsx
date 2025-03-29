@@ -44,16 +44,16 @@ const UsersList = () => {
     <div className="min-h-screen bg-gray-100 flex flex-col">
       <Header />
       
-      <div className="flex-grow flex flex-col justify-center items-center relative px-4 sm:px-6">
-        <div className="w-full flex justify-center mb-6 ml-12">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 w-full max-w-5xl">
+      <div className="flex-grow flex flex-col justify-center items-center relative px-4 sm:px-6 py-6">
+        <div className="container mx-auto w-full max-w-5xl flex justify-center mb-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 w-full max-w-4xl">
             {users.map((user) => (
               <UserCard key={user.id} user={user} />
             ))}
           </div>
         </div>
 
-        <div className="flex justify-center mt-2 font-mono text-lg space-x-4">
+        <div className="flex justify-center font-mono text-lg space-x-4">
           <button className={`px-4 py-2 rounded-4xl ${page === 1 ? 'bg-gray-200 border-1 border-gray-400' : 'bg-blue-500 text-white'}`}
             onClick={handlePrev} disabled={page === 1}>
             Previous
