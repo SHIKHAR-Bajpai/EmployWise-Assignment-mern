@@ -22,13 +22,14 @@ const LoginPage = () => {
     }
 
     try {
-      const response = await axios.post(`${config.API_URL}/login`, {
+      const response = await axios.post(`https://reqres.in/api/login`, {
         email,
         password,
       });
 
       if (response.status === 200) {
         localStorage.setItem('token', response.data.token)
+        console.log(response.data.token)
         navigate('/get/users')
       }
     } catch (error) {
