@@ -27,8 +27,8 @@ A React application that integrates with the Reqres API to perform basic user ma
 ### 1. **Clone the Repository**
 
  ```
-git clone <repository_url>
-cd <project_directory>
+git clone https://github.com/SHIKHAR-Bajpai/EmployWise-Assignment-mern.git
+cd frontend
 ```
 
 ### 2. **Install Dependencies**
@@ -72,4 +72,4 @@ http://localhost:5173
 
 ## 🔗 Hosted Link
 
-Hosted Application Link (Replace <hosted_link> with your actual hosted link)
+Application is hosted at: 
