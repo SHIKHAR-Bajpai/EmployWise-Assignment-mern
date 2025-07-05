@@ -71,7 +71,3 @@ http://localhost:5173
 - GET: https://reqres.in//api/users?page={page} 
 - PUT: https://reqres.in//api/users/{id} 
 - DELETE: https://reqres.in//api/users/{id} 
-
-## 🔗 Hosted Link
-
-Application is hosted at: https://employwise-assignment-mern.onrender.com
